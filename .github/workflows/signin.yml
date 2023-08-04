@@ -9,7 +9,7 @@ jobs:
   signin:
     name: Aliyun Signin
     runs-on: ubuntu-latest
-    timeout-minutes:3
+    timeout-minutes: 3
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
